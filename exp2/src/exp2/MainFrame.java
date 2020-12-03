@@ -30,7 +30,7 @@ public class MainFrame extends JFrame {
     void init() {
         setLocation(0, 0);
         setSize(1280, 720);
-        ImageIcon bg = new ImageIcon("src/exp2/bj.jpg");
+        ImageIcon bg = new ImageIcon("exp2/src/exp2/bj.jpg");
         // 把背景图片显示在一个标签里
         JLabel label = new JLabel(bg);
         // 把标签的大小位置设置为图片刚好填充整个界面
